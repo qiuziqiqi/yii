@@ -32,6 +32,7 @@ class m171029_053845_bbb extends Migration
         $this->createTable('bbb', [
             'id' => $this->primaryKey(),
         ]);
+
     }
 
     public function down()
