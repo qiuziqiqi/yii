@@ -20,7 +20,7 @@ class m171029_053731_aaa extends Migration
      */
     public function safeDown()
     {
-        echo "m171029_053731_aaa cannot be reverted.\n";
+        echo "m171029_053731_aaa cannot be reverted".PHP_EOL;
 
         return false;
     }
